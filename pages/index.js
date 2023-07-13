@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 function Home() {
   return (
     <main className="grid place-items-center h-screen">
@@ -25,12 +25,12 @@ function Home() {
             </div>
 
             {/* Result */}
-            {/* {url.short.length > 0 && (
+            {true > 0 && (
               <div className="flex gap-4 mt-6 p-5 rounded-md border border-cyan-500 bg-cyan-50 items-center">
-                <p className="line-clamp-1">{url.long}</p>
+                <p className="line-clamp-1">Long URL</p>
 
                 <p className="text-cyan-700">
-                  <Link href={`/${url.short}`}> rb.gy/{url.short}</Link>
+                  <Link href={`/`}> rb.gy/shorturl</Link>
                 </p>
                 <button
                   type="button"
@@ -39,7 +39,7 @@ function Home() {
                   Copy
                 </button>
               </div>
-            )} */}
+            )}
           </div>
         </div>
       </div>
