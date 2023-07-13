@@ -32,12 +32,6 @@ function Home() {
                 <p className="text-cyan-700">
                   <Link href={`/`}> rb.gy/shorturl</Link>
                 </p>
-                <button
-                  type="button"
-                  className="rounded text-sm px-3 py-2 hover:bg-cyan-100"
-                >
-                  Copy
-                </button>
               </div>
             )}
           </div>
